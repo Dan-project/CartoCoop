@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "dict_export",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2154" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "label": "building", "center_x": 100.5, "center_y": 500.1 }, "geometry": { "type": "Point", "coordinates": [ 100.5, 500.1 ] } },
+{ "type": "Feature", "properties": { "id": 2, "label": "road", "center_x": 200.2, "center_y": 600.4 }, "geometry": { "type": "Point", "coordinates": [ 200.2, 600.4 ] } },
+{ "type": "Feature", "properties": { "id": 3, "label": "forest", "center_x": 150.8, "center_y": 550.2 }, "geometry": { "type": "Point", "coordinates": [ 150.8, 550.2 ] } }
+]
+}
+
+

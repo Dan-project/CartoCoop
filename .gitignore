@@ -1,0 +1,8 @@
+# bags (GitHub refuse les fichiers de plus de 100 Mo)
+*.db3
+*.mcap
+bag*/
+
+losy/losy/old_version/*.txt
+Prior-Map/old/
+losy/losy/priormap/export_grid_01.geojson

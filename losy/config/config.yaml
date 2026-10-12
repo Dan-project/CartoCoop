@@ -1,0 +1,23 @@
+/LidarImageFusionNode:
+  ros__parameters:
+      # Choix du robot : 'scout' ou 'ranger'
+      robot: "scout"
+
+      # Paramètre du chargement de la map 
+      dim: "3d"            # '2d' ou '3d'
+      cell_size: 1        # Taille de la grille (x, y)
+      cell_size_z: 1      # Taille de la grille (z) -> voxel
+
+      # Position du robots + param de normalisation de la map
+      xmin_robot_scout: 709809.507192942 # a terme faudra mettre juste 1 position et pas le choix entre robot mais ca ne marche pas, odnc ici c les donnees quon change si autres acqusuiotn de scout ou ranger 
+      ymin_robot_scout: 7056662.075542638
+      xmin_robot_ranger: 709735.5419107936 
+      ymin_robot_ranger: 7056805.517686295
+      xmin_map: 709433.5004293
+      ymin_map: 7056437.95734587
+      # Paramètres d'acquisition et de fusion
+      acquisition_hz: 2.0 # Fréquence en Hz
+      range: 20           # Portée du LiDAR en mètres
+
+      # Paramètres de fermeture de boucle (Loop Closure)
+      loop: false         # true ou false

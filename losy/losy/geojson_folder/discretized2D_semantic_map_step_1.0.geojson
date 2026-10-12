@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "discretized2D_semantic_map_step_1.0",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2154" } },
+"features": [
+
+]
+}

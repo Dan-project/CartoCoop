@@ -22,7 +22,9 @@ Les deux packages ROS2, LOSY et LIORF, fonctionnent ensemble : LIORF fournit l'o
 
 Dans multirobots_sim/ :
 - lancer le conteneur (vérifier le nom du conteneur (docker ps -a), normalement carto):
-      docker start carto
-      docker exec -it carto bash
+
+  `docker start carto`
+
+  `docker exec -it carto bash`
 Plus d'info sur le simulateur ici: https://github.com/ccappelle-Ulille/SOS_multirobots_simulator (re-télécharger les dépendances etc).
 

@@ -17,3 +17,11 @@ Les deux packages ROS2, LOSY et LIORF, fonctionnent ensemble : LIORF fournit l'o
 - `losy/README.md` : présentation de LOSY et commandes de lancement
 - `losy/README_DEV.md` : description des fonctions, pour les développeurs
 - `Prior-Map/README.md` : création de la carte a priori
+
+# Connexion docker sur le pc du labo 
+
+Dans multirobots_sim/ :
+- lancer le conteneur (vérifier le nom du conteneur (docker ps -a), normalement carto):
+      docker start carto
+      docker exec -it carto bash
+- relancer la procédure docker : https://github.com/ccappelle-Ulille/SOS_multirobots_simulator (re-télécharger les dépendances etc)

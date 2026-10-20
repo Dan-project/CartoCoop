@@ -24,4 +24,5 @@ Dans multirobots_sim/ :
 - lancer le conteneur (vérifier le nom du conteneur (docker ps -a), normalement carto):
       docker start carto
       docker exec -it carto bash
-- relancer la procédure docker : https://github.com/ccappelle-Ulille/SOS_multirobots_simulator (re-télécharger les dépendances etc)
+Plus d'info sur le simulateur ici: https://github.com/ccappelle-Ulille/SOS_multirobots_simulator (re-télécharger les dépendances etc).
+

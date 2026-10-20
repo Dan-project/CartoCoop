@@ -26,5 +26,6 @@ Dans multirobots_sim/ :
   `docker start carto`
 
   `docker exec -it carto bash`
+  
 Plus d'info sur le simulateur ici: https://github.com/ccappelle-Ulille/SOS_multirobots_simulator (re-télécharger les dépendances etc).
 
